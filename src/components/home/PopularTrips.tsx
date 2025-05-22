@@ -12,33 +12,62 @@ const PopularTrips: React.FC = () => {
       iconName: 'Palmtree',
       width: 800,
       height: 600,
-      detailedDescription: `📌 DETALJAN PLAN I PROGRAM PUTOVANJA
-📍 DESTINACIJE I AKTIVNOSTI – LJEPOTE BLEDA I OKOLICE
+      detailedDescription: `💧 Slap Kozjak 
+      
+Nakon kraće šetnje kroz šumu i duž korita rijeke, dolazimo do jednog od najljepših slapova Slovenije – Slap Kozjak. Smješten unutar prirodnog kamenog amfiteatra, ovaj 15 metara visok slap djeluje bajkovito. 
+ Trajanje šetnje: cca 45 minuta (u oba smjera, lagani uspon) 
+ Napomena: Slap je dostupan isključivo pješice, staza je uređena. 
+🌄 Tolminska korita ,,,  
 
-🚌 Polazak
-Putovanje započinje u ranim jutarnjim satima, s dogovorenih polaznih mjesta. Vožnja prema Sloveniji traje nekoliko sati, tijekom kojih će pratitelj putovanja predstaviti plan dana, podijeliti zanimljivosti o regiji koju posjećujemo i osigurati ugodnu atmosferu. Pauza za kavu i doručak organizira se na odmorištu uz autocestu.
+xykmklnyvyxmvčym. 
+🌄🌄🌄🌄🌄
 
-🏞 BLED – JEZERO, OTOČIĆ I LEGENDE
-Po dolasku u Bled, prvo ćemo uživati u pogledu na smaragdno jezero koje kao da je izašlo iz razglednice. Ovaj alpski dragulj očarava posjetitelje stoljećima – bilo da ste zaljubljenik u prirodu, romantiku ili fotografiju.
 
-Lagano ćemo prošetati uz jezero, uživajući u tišini i svježem planinskom zraku. Usput ćemo čuti priče o povijesti mjesta, znamenitostima i legendi o zvonu želja koje se nalazi na otočiću u sredini jezera.
+🌄
+🌄
 
-🔸 VOŽNJA "PLETNOM" DO OTOČIĆA (opcionalno)
-Putnici koji žele dodatno doživjeti ljepotu jezera mogu se odlučiti za vožnju tradicionalnim drvenim čamcem – pletnom. Vožnja traje oko 15 minuta u jednom smjeru. Na otoku se može posjetiti crkva Uznesenja Marijina, zazvoniti zvono želja i uživati u pogledu s malog vidikovca.
-Cijena vožnje pletnom: 18 EUR (plaća se na licu mjesta).
+v
+🌄
 
-🏰 BLED CASTLE – SREDNJOVJEKOVNA PRIČA NA STIJENI
-Sljedeća točka našeg izleta je spektakularni Bledski dvorac – najstariji slovenski dvorac, smješten na strmoj stijeni 130 metara iznad jezera. Panoramski pogled s vidikovca jednostavno oduzima dah.
+dsv
+s
+235
+25
+;::sf,a
 
-U sklopu dvorca posjetitelji mogu razgledati mali muzej posvećen lokalnoj povijesti, tradiciji tiska u staroj tiskari i kušati vina u autentičnom vinskom podrumu. Slobodno vrijeme možete iskoristiti za fotografiranje, razgledavanje ili uživanje u kavi s pogledom.
-
-Ulaznica za dvorac uključena je u cijenu izleta.
-Trajanje obilaska: cca 60 minuta.
-
-🌲 VINTGAR KANJON – SNAGA PRIRODE I TIŠINA ŠUME
-Nakon odmora, autobusom nastavljamo kratku vožnju prema obližnjem prirodnom fenomenu – Vintgar klancu. Smješten u blizini mjesta Gorje, ovaj kanjon kroz koji teče rijeka Radovna poznat je po kristalno čistoj vodi, slapovima, drvenim šetnicama i divljoj, netaknutoj prirodi.
-
-Šetnja kroz kanjon traje otprilike sat i pol, a staza vodi uz rijeku, preko mostova i galerija isklesanih u stijenama. Na kraju nas dočekuje moćni slap Šum – jedan od najviših riječnih slapova u Sloveniji.`,
+Nakon obilaska Kozjaka, putovanje se nastavlja autobusom prema Tolminu, gdje nas očekuje jedna od najpoznatijih prirodnih atrakcija Julijskih Alpa. 
+Tolminska korita su duboki klanci koje su izdubile rijeke Tolminka i Zadlaščica. 
+Ovdje ćete vidjeti: 
+Vražiji most – smješten 60 m iznad rijeke Tolminke 
+Medvjeđa glava – ogromni kamen zaglavljen između stijena 
+Termalni izvor – rijedak prirodni fenomen unutar korita 
+Uređena staza duga cca 2 km nudi siguran i ugodan obilazak. 
+Trajanje obilaska: cca 1,5 sat (umjeren tempo) 
+🍽 Ručak (opcionalno) 
+U prirodnom ambijentu neposredno uz korita, postoji mogućnost organiziranog ručka: 
+Menu (18 EUR): 
+Juha 
+Pire krumpir 
+Pohano pileće meso 
+Pečena šnicla u umaku od gljiva 
+Salata 
+Desert 
+👉 Ručak nije uključen u cijenu putovanja. Potrebna je najava prilikom prijave. 
+🔁 Povratak 
+18:00 – Polazak iz Tolmina 
+Pauza za okrepu na povratku 
+✅ CIJENA: 58,00 EUR 
+✅ CIJENA UKLJUČUJE 
+Prijevoz turističkim autobusom 
+Pratitelj putovanja 
+Organizacija i vodstvo od strane agencije 
+Ulaznica za Slap Kozjak 
+Ulaznica za Tolminska korita 
+Osiguranje od odgovornosti 
+❌ CIJENA NE UKLJUČUJE 
+Organizirani ručak (18 EUR – uz prethodnu najavu) 
+Osobna potrošnja 
+⚠️ VAŽNE INFORMACIJE `,
       duration: '1 dan',
       price: 'Od 58,00€ po osobi',
       includes: [

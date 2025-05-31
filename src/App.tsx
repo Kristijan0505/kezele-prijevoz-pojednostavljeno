@@ -5,7 +5,6 @@ import ONama from './pages/ONama';
 import Kontakt from './pages/Kontakt';
 import OpciUgovor from './pages/OpciUgovor';
 import Prigovor from './pages/Prigovor';
-import Admin from './pages/Admin';
 import ScrollToTop from './components/utils/ScrollToTop';
 import { Helmet } from 'react-helmet';
 
@@ -28,7 +27,6 @@ function App() {
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/opci-ugovor" element={<OpciUgovor />} />
         <Route path="/prigovor" element={<Prigovor />} />
-        <Route path="/admin" element={<Admin />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </Router>

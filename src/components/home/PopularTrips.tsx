@@ -7,7 +7,7 @@ const PopularTrips: React.FC = () => {
      {
       id: 16,
       title: '🚌 Vikend u Vojvodini – Subotica, Novi Sad & Vinarija Zvonko Bogdan',
-      description: '12.-13.05.2025.',
+      description: '12.-13.07.2025.',
       imageUrl: 'https://i.postimg.cc/T1N8Cmxb/subotica.jpg',
       iconName: 'Palmtree',
       width: 800,

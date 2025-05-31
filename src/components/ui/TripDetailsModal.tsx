@@ -75,7 +75,7 @@ const TripDetailsModal: React.FC<TripDetailsModalProps> = ({
           }
           
           // Headers with emoji (📌, 📍, ✅, ❌, ⚠️)
-          if (line.match(/^[📌📍✅❌⚠️].*/)) {
+          if (line.match(/^[📌📍✅❌⚠️💶🗓🚌📞🕑📆🙏⛪🧺🕯️🚍🏠⏰].*/)) {
             return (
               <h3 key={`h-${index}`} className="text-lg font-semibold text-primary-red mt-4 mb-2">
                 {line}
@@ -84,7 +84,7 @@ const TripDetailsModal: React.FC<TripDetailsModalProps> = ({
           }
           
           // Sub-headers with emoji (🏘, 🔹, 💧, 🌄, 🍽, 🔁, 👉, 🚌, 🏞, 🏰, 🌲, ✝️, ⛵, 🚂, 🛒)
-          if (line.match(/^[🏘🔹💧🌄🍽🔁👉🚌🏞🏰🌲✝️⛵🚂🛒🔸].*/)) {
+          if (line.match(/^[🏘🔹💧🌄🍽🔁👉🚌🏞🏰🌲✝️⛵🚂🛒🔸🏝🏨🕶☕🍷🕔].*/)) {
             return (
               <h4 key={`subh-${index}`} className="text-base font-semibold text-secondary-gold mt-3 mb-1">
                 {line}
@@ -93,7 +93,7 @@ const TripDetailsModal: React.FC<TripDetailsModalProps> = ({
           }
           
           // Check marks and includes (✓, ✔)
-          if (line.match(/^[✓✔].*/)) {
+          if (line.match(/^[✓✔•].*/)) {
             return (
               <div key={`check-${index}`} className="flex items-start ml-4 mb-1">
                 <span className="text-secondary-gold mr-2 flex-shrink-0">✓</span>
@@ -102,21 +102,12 @@ const TripDetailsModal: React.FC<TripDetailsModalProps> = ({
             );
           }
           
-          // Exclude marks (✗, ✖)
-          if (line.match(/^[✗✖].*/)) {
+          // List items with hyphen/bullet
+          if (line.trim().startsWith('-') || line.trim().startsWith('•')) {
             return (
-              <div key={`ex-${index}`} className="flex items-start ml-4 mb-1">
-                <span className="text-primary-red mr-2 flex-shrink-0">✗</span>
-                <span className="text-neutral-gray">{line.substring(1).trim()}</span>
-              </div>
-            );
-          }
-          
-          // Menu items or bulleted items with no emoji prefix
-          if (line.match(/^\s+[^•-].*/) || line.trim().startsWith('-')) {
-            return (
-              <div key={`list-${index}`} className="ml-6 text-neutral-gray mb-1">
-                • {line.trim().startsWith('-') ? line.substring(1).trim() : line.trim()}
+              <div key={`list-${index}`} className="flex items-start ml-4 mb-1">
+                <span className="text-secondary-gold mr-2 flex-shrink-0">•</span>
+                <span className="text-neutral-gray">{line.trim().substring(1).trim()}</span>
               </div>
             );
           }

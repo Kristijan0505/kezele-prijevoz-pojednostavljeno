@@ -4,7 +4,49 @@ import SectionTitle from '../ui/SectionTitle';
 
 const PopularTrips: React.FC = () => {
   const trips = [
-     {
+    // Hidden trip template - this won't show on the website but serves as a template
+    {
+      id: "hidden",
+      title: "🚌 PREDLOŽAK PUTOVANJA - OVO SE NE PRIKAZUJE",
+      description: "Primjer opisa putovanja",
+      imageUrl: "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=800",
+      iconName: "Palmtree",
+      width: 800,
+      height: 600,
+      detailedDescription: `📅 Datum: 01.01.2025.
+
+📍 PLAN PUTA:
+- Prva stavka
+- Druga stavka
+
+✅ CIJENA UKLJUČUJE:
+- Stavka 1
+- Stavka 2
+
+❌ CIJENA NE UKLJUČUJE:
+- Stavka 1
+- Stavka 2
+
+⚠️ NAPOMENE:
+- Napomena 1
+- Napomena 2
+
+📞 Rezervacije: 097/623-2530
+E-mail: kezele.prijevoz@gmail.com`,
+      duration: "X dana",
+      price: "XX€ po osobi",
+      includes: [
+        "Stavka 1",
+        "Stavka 2"
+      ],
+      excludes: [
+        "Stavka 1",
+        "Stavka 2"
+      ],
+      startLocation: "Polazak iz: Mjesto 1, Mjesto 2, Mjesto 3"
+    },
+    // Active trips below
+    {
       id: 16,
       title: '🚌 Vikend u Vojvodini – Subotica, Novi Sad & Vinarija Zvonko Bogdan',
       description: '12.-13.05.2025.',
@@ -757,6 +799,9 @@ Kezele prijevoz i turistička agencija
     }
   ];
 
+  // Filter out trips with id="hidden"
+  const visibleTrips = trips.filter(trip => trip.id !== "hidden");
+
   return (
     <section className="bg-neutral-gray py-16 animate-[wave_15s_ease-in-out_infinite]" id="popular-trips">
       <SectionTitle 
@@ -766,7 +811,7 @@ Kezele prijevoz i turistička agencija
       />
       
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 md:px-16 mt-8">
-        {trips.map((trip, index) => (
+        {visibleTrips.map((trip, index) => (
           <TripCard 
             key={trip.id}
             title={trip.title}

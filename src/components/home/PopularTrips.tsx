@@ -90,13 +90,7 @@ Minimalni broj putnika: 40. U slučaju manjeg broja putnika, organizator zadrža
       iconName: 'Palmtree',
       width: 800,
       height: 600,
-      detailedDescription:📍 PLAN PUTA:Polasci:
-Čazma (04:00)
-Križ (04:15)
-Novoselec (04:20)
-Graberje (04:25)
-Ivanić Grad (04:35)
-Zagreb – Buzin, Supernova (05:00)
+      detailedDescription:``📍 PLAN PUTA:Polasci
 Uz usputna stajanja prema potrebi grupe, dolazak u Pulu u jutarnjim satima.
 🏛️ PULA – GRAD ANTIKE I KULTURE
 Po dolasku u Pulu slijedi slobodno vrijeme za individualni razgled grada. Preporučeni lokaliteti:
@@ -131,16 +125,9 @@ Putno zdravstveno osiguranje (moguće uplatiti kod organizatora)
 📌 Napomena:
 Organizator zadržava pravo promjene redoslijeda programa zbog vremenskih uvjeta ili drugih objektivnih okolnosti. Minimalan broj putnika: 35. U slučaju manjeg broja putnika, organizator može prilagoditi cijenu ili otkazati putovanje (najkasnije 7 dana prije polaska).
 📞 Rezervacije i informacije:
-📱 097 6232 530 (WhatsApp / Viber / poziv),
+📱 097 6232 530 (WhatsApp / Viber / poziv)'
     duration: '1 dan',
       price: '30€ po osobi',
-      includes: [
-        'Autobusni prijevoz turističkim autobusom',
-        'Stručno vodstvo tijekom putovanja',
-        'Ulaznice za Muzej krapinskih neandertalaca',
-        'Ulaznice za dvorac Trakošćan',
-        'Osiguranje putnika i organizacije putovanja'
-      ],
       includes: [
         'Autobusni prijevoz turističkim autobusom',
         'Stručno vodstvo tijekom putovanja',
@@ -163,7 +150,7 @@ Organizator zadržava pravo promjene redoslijeda programa zbog vremenskih uvjeta
       iconName: 'Palmtree',
       width: 800,
       height: 600,
-      detailedDescription: 🙏 Svetište Majke Božje Trsatske – Rijeka 
+      detailedDescription: '🙏 Svetište Majke Božje Trsatske – Rijeka 
 Trsat je najstarije marijansko svetište u Hrvatskoj i jedno od najposjećenijih u regiji. 
  Smješteno iznad grada Rijeke, svetište pruža duhovni mir, predivan pogled na Kvarner te impresivnu crkvu i samostan. 
 🔹 Mogućnost: 
@@ -192,7 +179,7 @@ Ručak ili dodatne aktivnosti (opcionalno)
  ⚠️ NAPOMENA : 
 Putovanje je pogodno za sve dobne skupine 
 Ugodna obuća je preporučena 
-U slučaju lošeg vremena, kupanje može biti zamijenjeno slobodnim razgledom Omišlja 
+U slučaju lošeg vremena, kupanje može biti zamijenjeno slobodnim razgledom Omišlja
 Rezervacije: 097/623-2530,
       duration: '1 dan',
       price: '30€ po osobi',

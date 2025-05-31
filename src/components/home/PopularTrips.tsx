@@ -4,6 +4,280 @@ import SectionTitle from '../ui/SectionTitle';
 
 const PopularTrips: React.FC = () => {
   const trips = [
+     {
+      id: 16,
+      title: '🚌 Vikend u Vojvodini – Subotica, Novi Sad & Vinarija Zvonko Bogdan',
+      description: '12.-13.05.2025.',
+      imageUrl: 'https://i.postimg.cc/T1N8Cmxb/subotica.jpg',
+      iconName: 'Palmtree',
+      width: 800,
+      height: 600,
+      detailedDescription: ` 📅 12. – 13. srpnja 2025.,
+      📆 1. DAN – SUBOTA (12. srpnja 2025.) 
+Subotica & Vinarija Zvonko Bogdan 
+✔ Udobna vožnja turističkim autobusom autocestom prema Subotici, s povremenim stajanjima po potrebi grupe. 
+ ✔ Po dolasku slijedi organizirani razgled Subotice uz licenciranog vodiča – grad prepoznatljiv po secesijskoj arhitekturi i bogatoj kulturnoj baštini. 
+🔸 Znamenitosti u obilasku: 
+Gradska kuća 
+Plava fontana 
+Sinagoga 
+Palača Mikše Demetera 
+Franjevačka crkva sv. Mihovila 
+Rajhlova palača 
+Narodno kazalište i dr. 
+✔ Nakon slobodnog vremena slijedi vožnja prema ekskluzivnoj Vinariji Zvonko Bogdan, smještenoj uz Palićko jezero. 
+🍷 Degustacija 3 vrhunska vina uz stručno vođenje i razgled modernog vinskog kompleksa. 
+✔ U večernjim satima smještaj u hotelu, večera uz mogućnost glazbenog programa (nadoplata 5 €), druženje i noćenje. 
+📆 2. DAN – NEDJELJA (13. srpnja 2025.) 
+Novi Sad i Petrovaradinska tvrđava 
+✔ Nakon doručka, odjava iz hotela i vožnja prema Novom Sadu (cca 1.5 h). 
+✔ Organizirani razgled uz stručnog vodiča: 
+🔹 Petrovaradinska tvrđava – "Gibraltar na Dunavu", simbol grada s pogledom koji oduzima dah. 
+ 🔹 Nastavak razgleda gradskog središta: 
+Trg slobode 
+Zmaj Jovina ulica 
+Vladičanski dvor 
+Dunavska ulica 
+Muzej Vojvodine 
+Štrand i još mnogo toga. 
+☕ Nakon obilaska – slobodno vrijeme za kavu, ručak ili kupovinu suvenira. 
+🕔 Okupljanje grupe oko 17:00 h (prema dogovoru) i polazak prema Hrvatskoj. 
+✔ Povratak na početna odredišta u kasnijim večernjim satima. 
+💶 Cijena aranžmana po osobi: 125,00 EUR 
+✅ CIJENA UKLJUČUJE: 
+Prijevoz turističkim autobusom 
+Smještaj u hotelu (dvokrevetne/trokrevetne sobe) 
+Doručak i večera u hotelu 
+Pratitelja putovanja 
+Degustaciju 3 vina u Vinariji Zvonko Bogdan 
+Licencirani vodič za Suboticu i Novi Sad 
+Stručna agencijska organizacija 
+Osiguranje od odgovornosti i jamčevina
+ ❌ CIJENA NE UKLJUČUJE: 
+Putno zdravstveno osiguranje (mogućnost uplate kod nas – Adriatic osiguranje) 
+Osobne troškove 
+Ulaznice u objekte tijekom obilaska: 
+Sinagoga: 150 RSD (~1,3 €) 
+Muzej Vojvodine: 200 RSD (~1,7 €) 
+Glazbeni program uz večeru: 5 € (neobavezno) 
+ ℹ️ Korisne informacije: 
+Potrebna je važeća osobna iskaznica ili putovnica. 
+Valuta u Srbiji je srpski dinar (RSD) – mjenjačnice su dostupne u središtu gradova. 
+Organizator zadržava pravo promjene redoslijeda programa u skladu s okolnostima na terenu. 
+Minimalni broj putnika: 40. U slučaju manjeg broja putnika, organizator zadržava pravo promjene cijene ili otkazivanja putovanja najkasnije 7 dana prije polaska. Mogućnost plaćanja gotovinski, web bankarstvom, kreditnim karticama na rate.'
+      duration: '2 dana',
+      price: '125€ po osobi',
+      includes: [
+        'Autobusni prijevoz turističkim autobusom',
+        'Stručno vodstvo tijekom putovanja',
+        'Ulaznice za Muzej krapinskih neandertalaca',
+        'Ulaznice za dvorac Trakošćan',
+        'Osiguranje putnika i organizacije putovanja'
+      ],
+      excludes: [
+        'Ručak (mogućnost dogovora)',
+        'Osobne troškove',
+        'Dodatne sadržaje koji nisu navedeni u programu'
+      ],
+      startLocation: 'Polasci (subota, 12.7.2025.): 
+(Čazma (04:00),Ivanić Grad (04:20) ,Križ (04:35) ,Novoselec (04:40) ,Popovača (04:55) , Kutina (05:15)'
+    },
+    {
+      id: 15,
+      title: '🚌 JEDNODNEVNI IZLET: PULA & NACIONALNI PARK BRIJUNI',
+      description: '21.06.2025.',
+      imageUrl: 'https://i.postimg.cc/ZY2vWN8X/brijuni.jpg',
+      iconName: 'Palmtree',
+      width: 800,
+      height: 600,
+      detailedDescription:📍 PLAN PUTA:Polasci:
+Čazma (04:00)
+Križ (04:15)
+Novoselec (04:20)
+Graberje (04:25)
+Ivanić Grad (04:35)
+Zagreb – Buzin, Supernova (05:00)
+Uz usputna stajanja prema potrebi grupe, dolazak u Pulu u jutarnjim satima.
+🏛️ PULA – GRAD ANTIKE I KULTURE
+Po dolasku u Pulu slijedi slobodno vrijeme za individualni razgled grada. Preporučeni lokaliteti:
+Arena – jedan od najbolje očuvanih rimskih amfiteatara na svijetu
+Augustov hram – simbol rimske moći i arhitekture
+Slavoluk Sergijevaca (Zlatna vrata) – čuvena antička vrata grada
+Kaštel – tvrđava s panoramskim pogledom
+Šetnja Forumu i obalnim dijelom grada
+Uživajte u šarmantnim ulicama, kavi uz more i jedinstvenoj atmosferi Pule.
+🌊 NP BRIJUNI – ČAROBNI OTOČNI BISERI JADRANA
+Nakon obilaska Pule, u dogovoreno vrijeme nastavljamo vožnju do Fažane, gdje se ukrcavamo na brod za Nacionalni park Brijuni.
+🛥 Dolazak na otok Veliki Brijun – vođena tura započinje iskrcajem na istočnoj strani otoka.
+📸 Vožnja turističkim vlakićem kroz park do sjevernog dijela otoka i posjet Safari parku.
+🐘 Upoznajemo egzotične i domaće životinje – zebre, ljame, slonove, jeleni lopatari, mufloni...
+🚶 Nakon vlakića slijedi šetnja uz stručno vodstvo:
+Posjet kulturnim i povijesnim znamenitostima
+Izložbe, arheološki ostaci i memorijalni lokaliteti
+☕ Slobodno vrijeme za osvježenje u kafiću ili šetnju kroz parkove Brijuna.
+⛵ Povratak brodom u Fažanu prema dogovoru, zatim polazak kući.
+🕕 Predviđen povratak u kasnim poslijepodnevnim satima (oko 18:00), s dolaskom na polazne lokacije u večernjim satima.
+✅ CIJENA UKLJUČUJE:
+Prijevoz turističkim autobusom
+Pratitelja putovanja
+Organizaciju i PDV
+Jamčevinu i osiguranje od odgovornosti
+Ulaznicu za NP Brijuni
+Prijevoz brodom
+Licenciranog vodiča za Brijune
+❌ CIJENA NE UKLJUČUJE:
+Osobnu potrošnju
+Putno zdravstveno osiguranje (moguće uplatiti kod organizatora)
+📌 Napomena:
+Organizator zadržava pravo promjene redoslijeda programa zbog vremenskih uvjeta ili drugih objektivnih okolnosti. Minimalan broj putnika: 35. U slučaju manjeg broja putnika, organizator može prilagoditi cijenu ili otkazati putovanje (najkasnije 7 dana prije polaska).
+📞 Rezervacije i informacije:
+📱 097 6232 530 (WhatsApp / Viber / poziv),
+    duration: '1 dan',
+      price: '30€ po osobi',
+      includes: [
+        'Autobusni prijevoz turističkim autobusom',
+        'Stručno vodstvo tijekom putovanja',
+        'Ulaznice za Muzej krapinskih neandertalaca',
+        'Ulaznice za dvorac Trakošćan',
+        'Osiguranje putnika i organizacije putovanja'
+      ],
+      includes: [
+        'Autobusni prijevoz turističkim autobusom',
+        'Stručno vodstvo tijekom putovanja',
+        'Ulaznice za Muzej krapinskih neandertalaca',
+        'Ulaznice za dvorac Trakošćan',
+        'Osiguranje putnika i organizacije putovanja'
+      ],
+      excludes: [
+        'Ručak (mogućnost dogovora)',
+        'Osobne troškove',
+        'Dodatne sadržaje koji nisu navedeni u programu'
+      ],
+      startLocation: 'Polasci: Čazma, Križ, Novoselec, Graberje, Ivanić Grad, Zagreb Buzin (Supernova)'
+    },
+    {
+      id: 14,
+      title: 'TRSAT I OMIŠALJ – jednodnevni izlet',
+      description: '19. lipnja 2025. (četvrtak- Tijelovo) ',
+      imageUrl: 'https://i.postimg.cc/qBXWRcHv/kobarid.webp',
+      iconName: 'Palmtree',
+      width: 800,
+      height: 600,
+      detailedDescription: 🙏 Svetište Majke Božje Trsatske – Rijeka 
+Trsat je najstarije marijansko svetište u Hrvatskoj i jedno od najposjećenijih u regiji. 
+ Smješteno iznad grada Rijeke, svetište pruža duhovni mir, predivan pogled na Kvarner te impresivnu crkvu i samostan. 
+🔹 Mogućnost: 
+Sudjelovanja u svetoj misi (ovisno o terminu) 
+Molitve, razgledavanja svetišta i križnog puta 
+Kupnje suvenira ili svijeća u samostanskoj suvenirnici 
+ 🏖 Omišalj – slobodno vrijeme za kupanje i odmor 
+Nakon duhovnog dijela putovanja, odlazak na otok Krk, u Omišalj, staro primorsko mjesto smješteno na litici s pogledom na more. 
+ Dolazak na plažu i slobodno vrijeme za: 
+Kupanje 
+Šetnju uz obalu 
+Opuštanje uz kavu ili sladoled 
+🔹 Ne zaboravite ponijeti: 
+Kupaći kostim 
+Ručnik 
+Kremu za sunčanje 
+🔁 Povratak – u večernjim satima 
+✅ CIJENA UKLJUČUJE :
+Prijevoz turističkim autobusom 
+Pratitelja putovanja 
+Organizaciju putovanja 
+Osiguranje od odgovornosti 
+❌ CIJENA NE UKLJUČUJE 
+Osobnu potrošnju (suveniri, kava, obroci, sladoled itd.) 
+Ručak ili dodatne aktivnosti (opcionalno) 
+ ⚠️ NAPOMENA : 
+Putovanje je pogodno za sve dobne skupine 
+Ugodna obuća je preporučena 
+U slučaju lošeg vremena, kupanje može biti zamijenjeno slobodnim razgledom Omišlja 
+Rezervacije: 097/623-2530,
+      duration: '1 dan',
+      price: '30€ po osobi',
+      includes: [
+        'Autobusni prijevoz turističkim autobusom',
+        'Stručno vodstvo tijekom putovanja',
+        'Ulaznice za Muzej krapinskih neandertalaca',
+        'Ulaznice za dvorac Trakošćan',
+        'Osiguranje putnika i organizacije putovanja'
+      ],
+      excludes: [
+        'Ručak (mogućnost dogovora)',
+        'Osobne troškove',
+        'Dodatne sadržaje koji nisu navedeni u programu'
+      ],
+      startLocation: '07:00 – Polazak iz Čazme, prolazak kroz Križ, Graberje, Ivanić Grad , ZG.. '
+    },
+    {
+      id: 13,
+      title: '🏞 PUTOVANJE U SLOVENIJU: KOBARID & TOLMINSKA KORITA',
+      description: 'Subota, 28. lipnja 2025.',
+      imageUrl: 'https://i.postimg.cc/qBXWRcHv/kobarid.webp',
+      iconName: 'Palmtree',
+      width: 800,
+      height: 600,
+      detailedDescription: 📌 PLAN I PROGRAM PUTOVANJA:  
+📍 DESTINACIJE I AKTIVNOSTI :
+🏘 Kobarid 
+Smješten u srcu doline Soče, Kobarid je mjesto bogate povijesti i nevjerojatne prirode. Grad je poznat po Kobariškoj bitki iz Prvog svjetskog rata, ali i po svojoj jedinstvenoj mješavini prirodnih ljepota i kulturne baštine. 
+🔹 Napoleonov most 
+Jedan od najpoznatijih simbola Kobarida. Kameni most preko rijeke Soče datira iz doba Napoleona, a danas je omiljena lokacija za fotografiranje zbog pogleda na kristalno čistu rijeku i alpske pejzaže. 
+ 💧 Slap Kozjak 
+Nakon kraće šetnje kroz šumu i duž korita rijeke, dolazimo do jednog od najljepših slapova Slovenije – Slap Kozjak. Smješten unutar prirodnog kamenog amfiteatra, ovaj 15 metara visok slap djeluje bajkovito. 
+ Trajanje šetnje: cca 45 minuta (u oba smjera, lagani uspon) 
+ Napomena: Slap je dostupan isključivo pješice, staza je uređena. 
+ 🌄 Tolminska korita 
+Nakon obilaska Kozjaka, putovanje se nastavlja autobusom prema Tolminu, gdje nas očekuje jedna od najpoznatijih prirodnih atrakcija Julijskih Alpa. Tolminska korita su duboki klanci koje su izdubile rijeke Tolminka i Zadlaščica.  
+Ovdje ćete vidjeti: 
+Vražiji most – smješten 60 m iznad rijeke Tolminke 
+Medvjeđa glava – ogromni kamen zaglavljen između stijena 
+Termalni izvor – rijedak prirodni fenomen unutar korita 
+Uređena staza duga cca 2 km nudi siguran i ugodan obilazak. 
+Trajanje obilaska: cca 1,5 sat (umjeren tempo) 
+🍽 Ručak (opcionalno) 
+U prirodnom ambijentu neposredno uz korita, postoji mogućnost organiziranog ručka: 
+Menu (18 EUR): 
+Juha , pire krumpir, pohano pileće meso, pečena šnicla u umaku od gljiva, salata 
+Desert 
+👉 Ručak nije uključen u cijenu putovanja. Potrebna je najava prilikom prijave. 
+🔁 Povratak 
+18:00 – Polazak iz Tolmina 
+Pauza za okrepu na povratku. 
+✅ CIJENA: 58,00 EUR 
+✅ CIJENA UKLJUČUJE 
+Prijevoz turističkim autobusom 
+Pratitelj putovanja 
+Organizacija i vodstvo od strane agencije 
+Ulaznica za Slap Kozjak 
+Ulaznica za Tolminska korita 
+Osiguranje od odgovornosti 
+❌ CIJENA NE UKLJUČUJE 
+Organizirani ručak (18 EUR – uz prethodnu najavu) 
+Osobna potrošnja 
+⚠️ VAŽNE INFORMACIJE 
+Putovanje uključuje hodanje po prirodnim terenima, usponima i klancima. 
+Obavezna udobna i čvrsta obuća – sportska ili planinarska. 
+Izlet nije preporučen osobama slabije pokretljivosti. 
+Prelazak granice – ne zaboravite osobnu iskaznicu. 
+📞 Rezervacije: 097/623-2530`,
+      duration: '1 dan',
+      price: '58€ po osobi',
+      includes: [
+        'Autobusni prijevoz turističkim autobusom',
+        'Stručno vodstvo tijekom putovanja',
+        'Ulaznice za Muzej krapinskih neandertalaca',
+        'Ulaznice za dvorac Trakošćan',
+        'Osiguranje putnika i organizacije putovanja'
+      ],
+      excludes: [
+        'Ručak (mogućnost dogovora)',
+        'Osobne troškove',
+        'Dodatne sadržaje koji nisu navedeni u programu'
+      ],
+      startLocation: 'Polazak: 05:00 h – Bjelovar, 05:30 –Čazma, 05:50 – Križ, 06:00 –  Ivanić Grad, 06:40 – Zagreb (Buzin), nastavak prema Rugvici, 11:00 – Dolazak u Kobarid, Slovenija'
+    },
     {
       id: 12,
       title: '🕊️ PLAN PUTA – HODOČAŠĆE SV. IVI U PODMILAČJE',

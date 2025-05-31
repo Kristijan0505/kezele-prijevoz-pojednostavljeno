@@ -90,7 +90,7 @@ Minimalni broj putnika: 40. U slučaju manjeg broja putnika, organizator zadrža
       iconName: 'Palmtree',
       width: 800,
       height: 600,
-      detailedDescription:``📍 PLAN PUTA:Polasci
+      detailedDescription:`📍 PLAN PUTA:Polasci
 Uz usputna stajanja prema potrebi grupe, dolazak u Pulu u jutarnjim satima.
 🏛️ PULA – GRAD ANTIKE I KULTURE
 Po dolasku u Pulu slijedi slobodno vrijeme za individualni razgled grada. Preporučeni lokaliteti:

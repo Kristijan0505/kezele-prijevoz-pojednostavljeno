@@ -185,7 +185,7 @@ Organizator zadržava pravo promjene redoslijeda programa zbog vremenskih uvjeta
       id: 14,
       title: 'TRSAT I OMIŠALJ – jednodnevni izlet',
       description: '19. lipnja 2025. (četvrtak- Tijelovo) ',
-      imageUrl: 'https://i.postimg.cc/qBXWRcHv/kobarid.webp',
+      imageUrl: 'https://i.postimg.cc/Vs9GWXg0/trsat.jpg',
       iconName: 'Palmtree',
       width: 800,
       height: 600,

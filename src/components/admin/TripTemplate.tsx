@@ -114,3 +114,5 @@ E-mail: kezele.prijevoz@gmail.com\`,
 };
 
 export default TripTemplate;
+
+export default TripTemplate

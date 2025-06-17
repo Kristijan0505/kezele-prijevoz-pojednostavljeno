@@ -165,7 +165,7 @@ Organizator zadržava pravo promjene redoslijeda programa zbog vremenskih uvjeta
 📞 Rezervacije i informacije:
 📱 097 6232 530 (WhatsApp / Viber / poziv)`,
       duration: '1 dan',
-      price: '30€ po osobi',
+      price: '84€ po osobi',
       includes: [
         'Prijevoz turističkim autobusom',
         'Pratitelja putovanja',
